@@ -1,9 +1,10 @@
 import {StyleSheet} from 'react-native';
+import layout from '../../../core/constants/layout';
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: 'red',
+  wrapper: {
     flex: 1,
+    backgroundColor: layout.BOTTOM_SAFE_AREA,
   },
 });
 
